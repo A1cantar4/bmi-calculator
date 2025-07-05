@@ -1,7 +1,8 @@
 # Projeto Simples de uma Calculadora de IMC
-# Variáveis: peso (em Kg), altura(em m), imc(variável local),
-# seu_imc(Chama função do calculo), faixa(Calcula a classificação)
-# Versão 1.1.0
+# Variáveis: 'peso'(em Kg), 'altura'(em m), 'imc'(variável local),
+# 'seu_imc'(Chama função do calculo), 'faixa'(Calcula a classificação)
+# 'reiniciar'(Variável Opcional)
+# Versão 1.2.0
 
 # Definindo base de calculo da calculadora
 def calculadora_imc(peso, altura):
@@ -20,25 +21,37 @@ def faixa_imc(imc):
         return "Cê cresceu demais pros lados, é bom dar um jeito nisso, pro seu próprio bem :D"
       # \('-')/ Havia me esquecido do 'Return' 
         
-# Início do programa em si com inputs, mas pode ser carregado de outro arquivo (só importar)
-# Vou adicionar um cabeçalho pra deixar mais bonitinho.
-print("¨¨¨¨ CALCULADORA IMC ¨¨¨¨")
-
-# Implementei esse loop pra que caso haja erro, o programa reiniciar
+# Loop geral para que o usuário possa reiniciar quantas vezes desejar ao final do uso.
 while True:
-    try:
-        altura = float(input("Ei gigante! Me diz ai sua altura (m): "))
-        peso = float(input("Só não vale mentir hein? Me diz ai seu peso atual (kg): "))
-        break # Com tudo ok, ai sai do loop
-    except ValueError:
-        print("\nHmmm... Acho que cê digitou errado.")
-        print("Ô Chefe, sua altura é em metros e seu peso é em kilos.")
-        print("Pra colocar um tiquinho depois do valor é usando 'ponto'!")
-        print("Tenta mais uma vez ai meu patrão!\n")
+    # Vou adicionar um cabeçalho pra deixar mais bonitinho.
+    print("¨¨¨¨ CALCULADORA IMC ¨¨¨¨")
 
-# Caso o loop dê certo, ai calcula e mostra o resultado do imc
-seu_imc = calculadora_imc(peso, altura)
-faixa = faixa_imc(seu_imc)
+    # Adicionado um Try/Except individual para evitar recomeçar sem armazenar informação do input anterior.
+    # Loop 'Altura'
+    while True:
+        try:
+            altura = float(input("Ei gigante! Me diz ai sua altura (m): \n"))
+            break
+        except ValueError:
+            print("\nHmmm... Acho que cê digitou errado sua altura.\n")
+    
+    # Loop 'Peso'
+    while True:
+        try:
+            peso = float(input("\nSó não vale mentir hein? Me diz ai seu peso atual (kg): \n"))
+            break
+        except ValueError:
+            print("\nHmmm... Acho que cê digitou errado seu peso.\n")
 
-print(f"Meu nobre, seu IMC é: {seu_imc:.2f}")
-print("Vejamos...", faixa)
+    # Caso o loop dê certo, ai calcula e mostra o resultado do imc
+    seu_imc = calculadora_imc(peso, altura)
+    faixa = faixa_imc(seu_imc)
+
+    print(f"\nMeu nobre, seu IMC é: {seu_imc:.2f}")
+    print("Vejamos...", faixa)
+    
+    # Repetição opcional do usuário
+    reiniciar = input("\nCamarada, quer calcular outro IMC (S/N)? ").strip().lower()
+    if reiniciar != "s":
+        print("\nTamo junto manin, até a próxima!")
+        break
