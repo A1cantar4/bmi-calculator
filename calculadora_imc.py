@@ -1,7 +1,7 @@
 # Projeto Simples de uma Calculadora de IMC
 # Variáveis: peso (em Kg), altura(em m), imc(variável local),
 # seu_imc(Chama função do calculo), faixa(Calcula a classificação)
-# Versão 1.0.0
+# Versão 1.1.0
 
 # Definindo base de calculo da calculadora
 def calculadora_imc(peso, altura):
@@ -17,14 +17,26 @@ def faixa_imc(imc):
     elif imc < 30:
         return "Vejamos... excedeu um pouco na hora de comer hein..."
     else:
-        "Cê cresceu demais pros lados, é bom dar um jeito nisso, pro seu próprio bem :D"
+        return "Cê cresceu demais pros lados, é bom dar um jeito nisso, pro seu próprio bem :D"
+      # \('-')/ Havia me esquecido do 'Return' 
         
 # Início do programa em si com inputs, mas pode ser carregado de outro arquivo (só importar)
 # Vou adicionar um cabeçalho pra deixar mais bonitinho.
 print("¨¨¨¨ CALCULADORA IMC ¨¨¨¨")
-altura = float(input("Ei gigante! Me diz ai sua altura (m): "))
-peso = float(input("Só não vale mentir hein? Me diz ai seu peso atual (kg): "))
 
+# Implementei esse loop pra que caso haja erro, o programa reiniciar
+while True:
+    try:
+        altura = float(input("Ei gigante! Me diz ai sua altura (m): "))
+        peso = float(input("Só não vale mentir hein? Me diz ai seu peso atual (kg): "))
+        break # Com tudo ok, ai sai do loop
+    except ValueError:
+        print("\nHmmm... Acho que cê digitou errado.")
+        print("Ô Chefe, sua altura é em metros e seu peso é em kilos.")
+        print("Pra colocar um tiquinho depois do valor é usando 'ponto'!")
+        print("Tenta mais uma vez ai meu patrão!\n")
+
+# Caso o loop dê certo, ai calcula e mostra o resultado do imc
 seu_imc = calculadora_imc(peso, altura)
 faixa = faixa_imc(seu_imc)
 
