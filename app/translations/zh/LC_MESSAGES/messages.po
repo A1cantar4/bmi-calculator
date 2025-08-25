@@ -1,0 +1,47 @@
+# messages.po for zh
+msgid ""
+msgstr ""
+"Language: zh\n"
+
+msgid "Calculadora de IMC"
+msgstr "身体质量指数计算器"
+
+msgid "Altura (m):"
+msgstr "身高 (米):"
+
+msgid "Peso (kg):"
+msgstr "体重 (公斤):"
+
+msgid "Calcular"
+msgstr "计算"
+
+msgid "Resultado"
+msgstr "结果"
+
+msgid "Seu IMC é:"
+msgstr "您的BMI是:"
+
+msgid "Classificação:"
+msgstr "分类:"
+
+msgid "Calcular novamente"
+msgstr "再次计算"
+
+msgid "Entrada inválida"
+msgstr "输入无效"
+
+msgid "Campo obrigatório"
+msgstr "必填字段"
+
+msgid "Abaixo do peso"
+msgstr "体重过轻"
+
+msgid "Peso normal"
+msgstr "正常体重"
+
+msgid "Sobrepeso"
+msgstr "超重"
+
+msgid "Obesidade"
+msgstr "肥胖"
+

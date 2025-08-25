@@ -1,0 +1,46 @@
+# messages.po for ru
+msgid ""
+msgstr ""
+"Language: ru\n"
+
+msgid "Calculadora de IMC"
+msgstr "Калькулятор ИМТ"
+
+msgid "Altura (m):"
+msgstr "Рост (м):"
+
+msgid "Peso (kg):"
+msgstr "Вес (кг):"
+
+msgid "Calcular"
+msgstr "Рассчитать"
+
+msgid "Resultado"
+msgstr "Результат"
+
+msgid "Seu IMC é:"
+msgstr "Ваш ИМТ:"
+
+msgid "Classificação:"
+msgstr "Классификация:"
+
+msgid "Calcular novamente"
+msgstr "Рассчитать снова"
+
+msgid "Entrada inválida"
+msgstr "Неверный ввод"
+
+msgid "Campo obrigatório"
+msgstr "Обязательное поле
+
+msgid "Abaixo do peso"
+msgstr "Недостаточный вес"
+
+msgid "Peso normal"
+msgstr "Нормальный вес"
+
+msgid "Sobrepeso"
+msgstr "Избыточный вес"
+
+msgid "Obesidade"
+msgstr "Ожирение"

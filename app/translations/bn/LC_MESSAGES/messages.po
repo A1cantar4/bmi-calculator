@@ -1,0 +1,47 @@
+# messages.po for bn
+msgid ""
+msgstr ""
+"Language: bn\n"
+
+msgid "Calculadora de IMC"
+msgstr "বিএমআই ক্যালকুলেটর"
+
+msgid "Altura (m):"
+msgstr "উচ্চতা (মিটার):"
+
+msgid "Peso (kg):"
+msgstr "ওজন (কেজি):"
+
+msgid "Calcular"
+msgstr "গণনা করুন"
+
+msgid "Resultado"
+msgstr "ফলাফল"
+
+msgid "Seu IMC é:"
+msgstr "আপনার বিএমআই হলো:"
+
+msgid "Classificação:"
+msgstr "শ্রেণীবিভাগ:"
+
+msgid "Calcular novamente"
+msgstr "আবার গণনা করুন"
+
+msgid "Entrada inválida"
+msgstr "অবৈধ ইনপুট"
+
+msgid "Campo obrigatório"
+msgstr "আবশ্যক ক্ষেত্র"
+
+msgid "Abaixo do peso"
+msgstr "ওজনের ঘাটতি"
+
+msgid "Peso normal"
+msgstr "স্বাভাবিক ওজন"
+
+msgid "Sobrepeso"
+msgstr "অতিরিক্ত ওজন"
+
+msgid "Obesidade"
+msgstr "স্থূলতা"
+

@@ -1,0 +1,47 @@
+# messages.po for ur
+msgid ""
+msgstr ""
+"Language: ur\n"
+
+msgid "Calculadora de IMC"
+msgstr "بی ایم آئی کیلکولیٹر"
+
+msgid "Altura (m):"
+msgstr "قد (میٹر):"
+
+msgid "Peso (kg):"
+msgstr "وزن (کلوگرام):"
+
+msgid "Calcular"
+msgstr "حساب لگائیں"
+
+msgid "Resultado"
+msgstr "نتیجہ"
+
+msgid "Seu IMC é:"
+msgstr "آپ کا بی ایم آئی ہے:"
+
+msgid "Classificação:"
+msgstr "درجہ بندی:"
+
+msgid "Calcular novamente"
+msgstr "دوبارہ حساب لگائیں"
+
+msgid "Entrada inválida"
+msgstr "غلط اندراج"
+
+msgid "Campo obrigatório"
+msgstr "لازمی خانہ"
+
+msgid "Abaixo do peso"
+msgstr "کم وزن"
+
+msgid "Peso normal"
+msgstr "نارمل وزن"
+
+msgid "Sobrepeso"
+msgstr "زیادہ وزن"
+
+msgid "Obesidade"
+msgstr "موٹاپا"
+

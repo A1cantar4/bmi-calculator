@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="{{ get_locale() }}">
+
+<head>
+    <meta charset="UTF-8">
+    <title>{{ _('Calculadora de IMC') }}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+
+<body>
+    <div class="page">
+        <div class="lang-switcher">
+            <a href="{{ url_for('main.index', lang='pt') }}">🇧🇷 {{ _('Português') }}</a> |
+            <a href="{{ url_for('main.index', lang='en') }}">🇺🇸 {{ _('English') }}</a> |
+            <a href="{{ url_for('main.index', lang='es') }}">🇪🇸 {{ _('Español') }}</a>
+        </div>
+
+        <div class="container">
+            {% block content %}{% endblock %}
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+
+</html>

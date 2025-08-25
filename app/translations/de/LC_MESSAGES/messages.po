@@ -1,0 +1,47 @@
+# messages.po for de
+msgid ""
+msgstr ""
+"Language: de\n"
+
+msgid "Calculadora de IMC"
+msgstr "BMI-Rechner"
+
+msgid "Altura (m):"
+msgstr "Größe (m):"
+
+msgid "Peso (kg):"
+msgstr "Gewicht (kg):"
+
+msgid "Calcular"
+msgstr "Berechnen"
+
+msgid "Resultado"
+msgstr "Ergebnis"
+
+msgid "Seu IMC é:"
+msgstr "Ihr BMI ist:"
+
+msgid "Classificação:"
+msgstr "Klassifikation:"
+
+msgid "Calcular novamente"
+msgstr "Erneut berechnen"
+
+msgid "Entrada inválida"
+msgstr "Ungültige Eingabe"
+
+msgid "Campo obrigatório"
+msgstr "Pflichtfeld"
+
+msgid "Abaixo do peso"
+msgstr "Untergewicht"
+
+msgid "Peso normal"
+msgstr "Normalgewicht"
+
+msgid "Sobrepeso"
+msgstr "Übergewicht"
+
+msgid "Obesidade"
+msgstr "Fettleibigkeit"
+

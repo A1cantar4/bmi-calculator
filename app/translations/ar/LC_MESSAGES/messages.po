@@ -1,0 +1,47 @@
+# messages.po for ar
+msgid ""
+msgstr ""
+"Language: ar\n"
+
+msgid "Calculadora de IMC"
+msgstr "حاسبة مؤشر كتلة الجسم"
+
+msgid "Altura (m):"
+msgstr "الطول (م):"
+
+msgid "Peso (kg):"
+msgstr "الوزن (كجم):"
+
+msgid "Calcular"
+msgstr "احسب"
+
+msgid "Resultado"
+msgstr "النتيجة"
+
+msgid "Seu IMC é:"
+msgstr "مؤشر كتلة الجسم الخاص بك هو:"
+
+msgid "Classificação:"
+msgstr "التصنيف:"
+
+msgid "Calcular novamente"
+msgstr "احسب مرة أخرى"
+
+msgid "Entrada inválida"
+msgstr "إدخال غير صالح"
+
+msgid "Campo obrigatório"
+msgstr "حقل مطلوب"
+
+msgid "Abaixo do peso"
+msgstr "نقص الوزن"
+
+msgid "Peso normal"
+msgstr "وزن طبيعي"
+
+msgid "Sobrepeso"
+msgstr "زيادة الوزن"
+
+msgid "Obesidade"
+msgstr "سمنة"
+

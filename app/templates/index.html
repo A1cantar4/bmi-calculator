@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>{{ _('Calculadora de IMC') }}</h1>
+<form method="post" data-invalid-msg="{{ _('Por favor, insira valores válidos para altura e peso.') }}">
+    <label>{{ _('Altura (m):') }}</label>
+    <input type="text" name="height" required>
+    <label>{{ _('Peso (kg):') }}</label>
+    <input type="text" name="weight" required>
+    <button type="submit">{{ _('Calcular') }}</button>
+</form>
+{% if error %}
+<p style="color:red">{{ error }}</p>
+{% endif %}
+{% endblock %}

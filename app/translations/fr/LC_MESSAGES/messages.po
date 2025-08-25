@@ -1,0 +1,46 @@
+# messages.po for fr
+msgid ""
+msgstr ""
+"Language: fr\n"
+
+msgid "Calculadora de IMC"
+msgstr "Calculateur IMC"
+
+msgid "Altura (m):"
+msgstr "Taille (m):"
+
+msgid "Peso (kg):"
+msgstr "Poids (kg):"
+
+msgid "Calcular"
+msgstr "Calculer"
+
+msgid "Resultado"
+msgstr "Résultat"
+
+msgid "Seu IMC é:"
+msgstr "Votre IMC est:"
+
+msgid "Classificação:"
+msgstr "Classification:"
+
+msgid "Calcular novamente"
+msgstr "Recalculer"
+
+msgid "Entrada inválida"
+msgstr "Entrée invalide"
+
+msgid "Campo obrigatório"
+msgstr "Champ obligatoire"
+
+msgid "Abaixo do peso"
+msgstr "Insuffisance pondérale"
+
+msgid "Peso normal"
+msgstr "Poids normal"
+
+msgid "Sobrepeso"
+msgstr "Surpoids"
+
+msgid "Obesidade"
+msgstr "Obésité"

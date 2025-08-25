@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>{{ _('Resultado') }}</h1>
+
+<div class="result">
+    <p>{{ _('Seu IMC é:') }} <b>{{ bmi }}</b></p>
+
+    {# Categoria com classe condicional #}
+    <p>
+        {{ _('Classificação:') }}
+        <span class="category 
+            {% if 'normal' in category.lower() %} normal
+            {% elif 'sobrepeso' in category.lower() or 'overweight' in category.lower() %} overweight
+            {% elif 'obesidade' in category.lower() or 'obesity' in category.lower() %} obesity
+            {% else %} underweight {% endif %}">
+            {{ category }}
+        </span>
+    </p>
+</div>
+
+<a href="{{ url_for('main.index') }}" class="back-link">{{ _('Calcular novamente') }}</a>
+{% endblock %}
