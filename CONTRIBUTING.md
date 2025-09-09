@@ -1,4 +1,4 @@
-# Contributing to To-Do List Project
+# Contributing to BMI Calculator Project
 
 First of all, thank you for considering contributing to this project!  
 Your help is essential for making this project better.
