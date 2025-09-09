@@ -28,7 +28,7 @@ The app allows users to calculate their BMI, view the classification, and switch
 
 ##### 1- First clone the repository:
 ```bash
-git clone https://github.com/your-username/bmi-calculator.git
+git clone https://github.com/A1cantar4/bmi-calculator.git
 ```
 
 ##### 2- Enter in the folder
