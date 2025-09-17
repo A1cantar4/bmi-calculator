@@ -13,6 +13,24 @@ The app allows users to calculate their BMI, view the classification, and switch
 
 ---
 
+## Screenshots
+
+##### - Main Menu:
+<div align="left">
+  <picture>
+    <img src="assets/img/screenshot_1.png" alt="Screenshot" width="70%">
+  </picture>
+</div>
+
+##### - After calculate:
+<div align="left">
+  <picture>
+    <img src="assets/img/screenshot_2.png" alt="Screenshot" width="70%">
+  </picture>
+</div>
+
+---
+
 ## Features
 
 - Multilingual support (pt, en, es, fr, de, ru, ar, hi, bn, ur, zh)
@@ -189,7 +207,7 @@ pip install -r requirements.txt
 
 ## Notes
 
-![Versão](https://img.shields.io/badge/version-2.0.0-blue.svg)
+![Versão](https://img.shields.io/badge/version-2.0.1-blue.svg)
 ![Python](https://img.shields.io/badge/Python-3.11+-blue.svg)
 ![Babel](https://img.shields.io/badge/Babel-11_languages-green.svg)
 

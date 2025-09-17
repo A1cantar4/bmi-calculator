@@ -6,6 +6,11 @@ This project adheres to [Semantic Versioning](https://semver.org/).
 
 ---
 
+## [2.0.1] - 2025-09-16
+### Added
+- Favicon for all pages.
+- Screenshots in README.
+
 ## [2.0.0] - 2025-08-24
 ### Added
 - Logo for github.
